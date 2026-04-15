@@ -1,17 +1,21 @@
 # Víctor Chang Baca — Portfolio
 
-Economist | Financial Analysis | Data Analytics | Econometrics | Machine Learning
+<!-- Optional: add a professional profile photo in your repository and uncomment the line below -->
+<!-- ![Víctor Chang Baca](./assets/profile-photo.jpg) -->
+
+**Economist | Financial Analysis | Data Analytics | Econometrics | Machine Learning**  
+**Location:** Piura, Peru
 
 Welcome to my professional portfolio.  
-This repository presents selected academic and applied projects focused on economic analysis, financial modeling, and data-driven decision making using econometrics and machine learning techniques.
+This repository presents selected academic and applied projects focused on economic analysis, financial modeling, and data-driven decision-making through econometrics, machine learning, and data analytics.
 
 ---
 
 ## About Me
 
-Economist from Universidad Nacional de Piura with strong quantitative training and experience in applied data analysis, predictive modeling, and economic research.
+Economist from the **Universidad Nacional de Piura** with strong quantitative training and experience in applied data analysis, predictive modeling, automation, and economic research. My work combines economics, finance, and data science to generate practical insights for decision-making.
 
-Main areas of work:
+### Main Areas of Work
 
 - Economic and macroeconomic analysis
 - Machine learning applications
@@ -19,27 +23,28 @@ Main areas of work:
 - Financial and business analytics
 - Data processing and automation with Python
 
-**Tools & Technologies**
+### Core Tools & Technologies
 
-Python | Pandas | Scikit-learn | Econometrics | Machine Learning | Excel | Data Visualization
-
----
-
-## Projects
+**Python | Pandas | NumPy | Scikit-learn | Econometrics | Machine Learning | Excel | Data Visualization | APIs**
 
 ---
 
-### 1. United States vs China: When Could China Surpass the U.S. Economy?
+## Featured Projects
 
-Economic research project analyzing the potential convergence between the Chinese and U.S. economies using nominal GDP projections and scenario modeling.
+### 1. United States vs. China: When Could China Surpass the U.S. Economy?
+
+Economic research project analyzing the potential convergence between the Chinese and U.S. economies through nominal GDP projections and scenario modeling.
 
 **Methodology**
 - CAGR estimation (2015–2024)
-- Scenario construction (optimistic, normal, pessimistic)
+- Scenario construction (optimistic, baseline, pessimistic)
 - Comparative macroeconomic analysis
 
-**Outcome**
-Quantitative projections showing how growth differentials affect long-term economic leadership.
+**Outcome**  
+Quantitative projections showing how growth differentials may affect long-term economic leadership.
+
+**Tools Used**  
+Python | Pandas | Economic Analysis | Scenario Modeling | Data Visualization
 
 👉 [View Project](./china-vs-usa-analysis)
 
@@ -47,16 +52,16 @@ Quantitative projections showing how growth differentials affect long-term econo
 
 ### 2. Spotify Songs Extractor (API & Data Engineering)
 
-Development of an automated pipeline to extract playlist data from Spotify and enrich it with artist information and country origin using external APIs.
+Development of an automated pipeline to extract playlist data from Spotify and enrich it with artist information and country of origin through external APIs.
 
 **Techniques**
 - Spotify API integration (Spotipy)
 - REST API requests (MusicBrainz)
 - Automated data extraction
-- Data export to structured datasets
+- Export to structured datasets
 
-**Tools**
-Python | APIs | Pandas
+**Tools Used**  
+Python | Spotipy | REST APIs | Pandas | Data Engineering
 
 👉 [View Project](./spotify-songs-extractor)
 
@@ -64,7 +69,7 @@ Python | APIs | Pandas
 
 ### 3. Global Music Mapping — Data Processing Project
 
-Construction and transformation of a global music dataset linking songs with country metadata through dataset merging and cleaning processes.
+Construction and transformation of a global music dataset linking songs with country metadata through merging, cleaning, and feature enrichment processes.
 
 **Tasks**
 - Dataset merging using country codes
@@ -72,13 +77,16 @@ Construction and transformation of a global music dataset linking songs with cou
 - Feature enrichment
 - Geographic data preparation
 
+**Tools Used**  
+Python | Pandas | Data Cleaning | Data Transformation | Geographic Data Processing
+
 👉 [View Project](./spotify-map-analysis)
 
 ---
 
 ### 4. Gold Recovery Prediction — Industrial Machine Learning Model
 
-Predictive modeling project estimating gold recovery in metallurgical processes while preventing data leakage.
+Predictive modeling project aimed at estimating gold recovery in metallurgical processes while preventing data leakage and improving generalization.
 
 **Methodology**
 - Feature validation and anomaly removal
@@ -86,8 +94,11 @@ Predictive modeling project estimating gold recovery in metallurgical processes 
 - TimeSeriesSplit cross-validation
 - sMAPE evaluation metric
 
-**Result**
-Robust model with strong generalization performance and stable predictions.
+**Result**  
+Robust model with stable predictions and strong generalization performance.
+
+**Tools Used**  
+Python | Pandas | Scikit-learn | Ridge Regression | Time Series Validation | sMAPE
 
 👉 [View Project](./gold-recovery-ml)
 
@@ -95,13 +106,16 @@ Robust model with strong generalization performance and stable predictions.
 
 ### 5. Insurance Analytics — Customer Similarity & Prediction Models
 
-Machine learning analysis for an insurance company including similarity detection, classification, regression, and data protection techniques.
+Machine learning project for an insurance company, including customer similarity analysis, classification, regression, and data protection techniques.
 
-**Models**
+**Models and Techniques**
 - k-Nearest Neighbors (kNN)
 - Linear regression
 - Distance metrics comparison
 - Data masking techniques
+
+**Tools Used**  
+Python | Scikit-learn | kNN | Linear Regression | Data Masking | Predictive Analytics
 
 👉 [View Project](./insurance-ml-analysis)
 
@@ -109,7 +123,7 @@ Machine learning analysis for an insurance company including similarity detectio
 
 ### 6. Used Car Price Prediction
 
-Development of predictive models to estimate vehicle market prices using structured historical data.
+Development of predictive models to estimate vehicle market prices using structured historical data and comparing model performance under different approaches.
 
 **Pipeline**
 - Data cleaning and feature engineering
@@ -117,8 +131,11 @@ Development of predictive models to estimate vehicle market prices using structu
 - Decision Trees
 - Random Forest comparison
 
-**Objective**
-Balance prediction quality, training time, and inference speed.
+**Objective**  
+Balance predictive quality, training time, and inference speed.
+
+**Tools Used**  
+Python | Pandas | Scikit-learn | Feature Engineering | Regression Models | Random Forest
 
 👉 [View Project](./car-price-prediction)
 
@@ -126,13 +143,16 @@ Balance prediction quality, training time, and inference speed.
 
 ### 7. Taxi Demand Forecasting (Time Series Modeling)
 
-Forecasting hourly taxi demand using historical airport request data.
+Time series forecasting project focused on predicting hourly taxi demand using historical airport request data.
 
 **Process**
 - Time resampling
-- Temporal feature preparation
+- Temporal feature engineering
 - Model training and evaluation
 - RMSE performance validation
+
+**Tools Used**  
+Python | Pandas | Time Series Analysis | Feature Engineering | Forecasting Models | RMSE
 
 👉 [View Project](./taxi-demand-forecast)
 
@@ -147,12 +167,14 @@ Forecasting hourly taxi demand using historical airport request data.
 - API Data Extraction
 - Predictive Analytics
 - Quantitative Economic Research
+- Economic Scenario Analysis
+- Data Processing Automation
 
 ---
 
 ## Contact
 
+📍 Piura, Peru  
 📧 victorchang665@gmail.com  
-🔗 LinkedIn: (https://www.linkedin.com/in/victor-chang-baca-02ab3b318/)
-📧 victorchang665@gmail.com  
-🔗 LinkedIn: (add your profile link)
+🔗 [LinkedIn](https://www.linkedin.com/in/victor-chang-baca-02ab3b318/)  
+💻 [GitHub](https://github.com/VChangBaca/Portafolio_Personal)
